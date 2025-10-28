@@ -1,34 +1,101 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Portfolio – Mateusz Kadłubowski</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mateusz Kadłubowski | Data Science Portfolio</title>
   <style>
-    body { 
-      font-family: sans-serif; 
-      max-width: 800px; 
-      margin: 40px auto; 
-      line-height: 1.6; 
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #f9fafb;
+      color: #222;
     }
-    h1 { color: #333; }
-    a { color: #0366d6; text-decoration: none; }
-    h2 { margin-top: 40px; }
+    header {
+      background-color: #0d1117;
+      color: #fff;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.2em;
+    }
+    header p {
+      margin-top: 8px;
+      color: #9da5b4;
+    }
+    section {
+      max-width: 900px;
+      margin: 60px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      border-bottom: 2px solid #0366d6;
+      padding-bottom: 8px;
+    }
+    a {
+      color: #0366d6;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .project {
+      background: white;
+      padding: 20px;
+      margin: 15px 0;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+    .contact {
+      text-align: center;
+      margin-bottom: 80px;
+    }
   </style>
 </head>
 <body>
-  <h1>Cześć! 👋</h1>
-  <p>Nazywam się <strong>Mateusz Kadłubowski</strong>. Jestem absolwentem analizy danych i metod iloścowych w ekonomii z SGH. Analiza danych oraz machine learning to moja pasja a na tej stronie pokazuje moje projekty.</p>
+  <header>
+    <h1>Mateusz Kadłubowski</h1>
+    <p>Data Science | Machine Learning | Analytics</p>
+  </header>
 
-  <h2>📂 Projekty</h2>
-  <ul>
-    <li><a href="https://github.com/MateuszKadlubowskiDS/projekt-analiza">Analiza danych sprzedażowych</a></li>
-    <li><a href="https://github.com/MateuszKadlubowskiDS/projekt-ml">Model predykcyjny churnu klientów</a></li>
-  </ul>
+  <section id="about">
+    <h2>About </h2>
+    <p>Hi! I’m Mateusz Kadłubowski — a graduate of the Warsaw School of Economics with a Master’s degree in Big Data – Advanced Analytics. 
+      
+       My background in Quantitative Methods in Economics (B.Sc.) and advanced analytics has given me a strong foundation in econometrics, machine learning, data mining, and statistical modeling.
+      
+       I have hands-on experience as a Data Engineering Consultant, where I worked across the software production lifecycle, focusing on ETL processes, data pipelines, and database design.
+       
+       This role also strengthened my ability to communicate complex technical concepts clearly and effectively.
+      
+       I’m skilled in Python, R, SQL, and Power BI, and familiar with tools like Git and Docker for collaborative and production-oriented work.
+      
+       I’m passionate about using data to solve real problems — from building predictive models to creating dashboards that turn numbers into meaningful stories.</p>
 
-  <h2>📫 Kontakt</h2>
-  <p>
-    <a href="https://www.linkedin.com/in/mateusz-kadlubowski/">LinkedIn</a> |
-    <a href="mailto:mateusz.kadlubowski@example.com">E-mail</a>
-  </p>
+       You can see my CV and projects down below.
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>Project 1</h3>
+      <p><strong>Goal:</strong> Yet to be described.</p>
+      <p><strong>Tools:</strong> yet to be described</p>
+      <p><a href="link here add later" target="_blank">View project on GitHub →</a></p>
+    </div>
+
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>
+      <a href="mj.kadlubowski@gmail.com">Email</a> |
+      <a href="https://www.linkedin.com/in/mateusz-jan-kad%C5%82ubowski//">LinkedIn</a> |
+      <a href="https://github.com/MateuszKadlubowskiDS">GitHub</a>
+    </p>
+  </section>
 </body>
 </html>
