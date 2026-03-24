@@ -99,23 +99,33 @@
 
 <div class="project">
   <h3>Project 1 – Credit Risk Prediction (LendingClub)</h3>
-  <p><strong>Goal:</strong> Predict whether a loan will default based on borrower and loan characteristics to support better credit risk decisions.</p>
+  
+  <p><strong>Goal:</strong> Predict whether a loan will default based on borrower and loan characteristics.</p>
+  
   <p>
     <strong>What I did:</strong>
-    Built a full pipeline: data cleaning and feature engineering (grade mapping, employment length, purpose simplification),
-    handling class imbalance, hyperparameter tuning for a Random Forest model, and evaluation with ROC AUC and classification metrics.
+    Built a full machine learning pipeline including data cleaning, feature engineering, and removal of data leakage features.
+    Trained a Random Forest model with hyperparameter tuning and handled class imbalance using class weighting.
+    Applied threshold tuning to improve detection of high-risk borrowers.
   </p>
+  
+  <p>
+    <strong>Key insights:</strong>
+    Loan grade, credit utilization, and debt-to-income ratio were the most important predictors of default.
+    The model achieved ROC-AUC ~0.71 and showed the typical precision–recall trade-off in imbalanced financial data.
+  </p>
+
   <p>
     <strong>Tech stack:</strong>
-    Python, pandas, scikit-learn, imbalanced-learn, seaborn, matplotlib
+    Python, pandas, scikit-learn, seaborn, matplotlib
   </p>
+
   <p>
     <a href="https://github.com/MateuszKadlubowskiDS/credit_risk_rf_model" target="_blank">
       View project on GitHub →
     </a>
   </p>
 </div>
-<div class="project">
   <h3>Project 2 – Customer Churn Prediction (Telecom)</h3>
   
   <p><strong>Goal:</strong> Predict whether a telecom customer will churn based on demographic, service, and billing data.</p>
